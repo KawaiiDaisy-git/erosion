@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CutsceneHolder",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CutsceneHolder",
+  "parent":{
+    "name":"Cutscene",
+    "path":"folders/Cutscene.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
