@@ -1,0 +1,1 @@
+testActor = instance_create_layer(100,100,"cutscene",obj_actor_parent);
