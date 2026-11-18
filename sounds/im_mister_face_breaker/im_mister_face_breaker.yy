@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"im_mister_face_breaker",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.8461678,
+  "exportDir":"",
+  "name":"im_mister_face_breaker",
+  "parent":{
+    "name":"Voicelines",
+    "path":"folders/Voicelines.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"im_mister_face_breaker.ogg",
+  "volume":1.0,
+}

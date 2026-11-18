@@ -1,0 +1,45 @@
+// @param text id
+function scr_game_text(_text_id){
+switch(_text_id) {
+
+	case "npc 1":
+		obj_textbox.position = 1 // 1 = up 0 = down
+		scr_textbox_functions("* hello, I'm Mister FaceBreaker!", "fb");
+		scr_text_color(13,31, c_white, c_white, c_yellow, c_yellow)
+		scr_text_float(13,31)
+		scr_textbox_functions("* If you want to progress...", "fb")
+		scr_textbox_functions("* You'll need to find the key! the key!", "fb")
+		scr_textbox_functions("* ... Which is what I would say if this wasn't an early build.", "fb")	
+		scr_textbox_functions("*", "fb")	
+			scr_option("yes", "npc 1 - yes");
+			scr_option("no", "npc 1 - no");
+
+		break;
+		case "npc 1 - yes":
+			scr_textbox_functions("you are weirdly opinionated", "fb")
+			break;
+		case "npc 1 - no":
+			scr_textbox_functions("why would you say that", "fb")
+			scr_text_shake(0,40)
+			obj_textbox.text_spd = .5;
+			break;
+		
+		
+		case "npc 2":
+		scr_textbox_functions("hi im npc2")
+		scr_textbox_functions("hi im fdsfdsfdsfdsf")
+
+		break;
+		
+		case "tree":
+		obj_textbox.position = 1 // 1 = up 0 = down
+		scr_textbox_functions("why do you want to talk to the tree?")
+		
+		break;
+		
+
+
+
+}
+
+}
