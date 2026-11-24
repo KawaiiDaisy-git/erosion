@@ -93,8 +93,51 @@ if argument_count > 1 {
 		{
 			
 			case "fb":
+			txtb_spr[page_number] = spr_dlg;
 			speaker_sprite[page_number] = spr_fb_spk;
 			snd[page_number] = txt_snd_fb;
+			break;
+			
+		}
+}
+
+//alice
+if argument_count > 1 {
+		switch(argument[1])
+		{
+			
+			case "alice":
+			txtb_spr[page_number] = spr_alicedlg;
+			speaker_sprite[page_number] = spr_alice_portrait;
+			snd[page_number] = txt_snd;
+			break;
+			
+		}
+}
+
+//alice blush
+if argument_count > 1 {
+		switch(argument[1])
+		{
+			
+			case "alice blush":
+			txtb_spr[page_number] = spr_alicedlg;
+			speaker_sprite[page_number] = spr_alice_p_blush;
+			snd[page_number] = txt_snd;
+			break;
+			
+		}
+}
+
+//alice dark
+if argument_count > 1 {
+		switch(argument[1])
+		{
+			
+			case "alice dark":
+			txtb_spr[page_number] = spr_alicedlg;
+			speaker_sprite[page_number] = spr_alice_p_dark;
+			snd[page_number] = txt_snd;
 			break;
 			
 		}

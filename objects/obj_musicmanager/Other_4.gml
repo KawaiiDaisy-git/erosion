@@ -2,7 +2,7 @@
 
 if room == Room1
 {
-	set_song_ingame(mus_floor1, 15, 0);
+	set_song_ingame(mus_alice, 15, 0);
 }
 
 if room == Room2

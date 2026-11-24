@@ -35,7 +35,7 @@ if setup == false
 			//character on left side
 			text_x_offset[p] = 75;
 			portrait_x_offset[p] = 4
-			line_width = textbox_width - border*10;
+			line_width = textbox_width - border*13;
 			//character on right side
 			if speaker_side[p] == -1 {
 				text_x_offset[p] = 1;
@@ -209,7 +209,7 @@ if speaker_sprite[page] != noone
 		if speaker_side[page] == -1 {_speaker_x += sprite_width}
 //draw the speaker
 		draw_sprite_ext(txtb_spr[page], txtb_img, textbox_x + portrait_x_offset[page] - 120, textbox_y, sprite_width/txtb_spr_w + .15, sprite_height/txtb_spr_h + .25, 0, c_white, 1)
-		draw_sprite_ext(sprite_index, image_index, _speaker_x - 151, textbox_y - 35, speaker_side[page], 1, 0, c_white, 1);
+		draw_sprite_ext(sprite_index, image_index, _speaker_x - 151, textbox_y - 33, speaker_side[page], 1, 0, c_white, 1);
 	}
 	
 	

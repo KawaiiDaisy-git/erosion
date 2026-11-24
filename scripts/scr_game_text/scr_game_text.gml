@@ -37,6 +37,17 @@ switch(_text_id) {
 		
 		break;
 		
+		case "alice test":
+		obj_textbox.position = 1 // 1 = up 0 = down
+		scr_textbox_functions("Hi! It's me! Alice!", "alice")
+		scr_text_color(12,18, c_white, c_white, c_yellow, c_yellow)
+		scr_textbox_functions("Um, I like girls, erm!", "alice blush")
+		scr_textbox_functions("...", "alice dark")
+		scr_textbox_functions("I want nothing more than to see the stars some day.", "alice dark")
+		scr_textbox_functions("We can make that happen, right?", "alice")
+		
+		break;
+		
 
 
 
