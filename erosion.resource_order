@@ -23,6 +23,7 @@
     {"name":"CutsceneHolder","order":1,"path":"scripts/CutsceneHolder/CutsceneHolder.yy",},
     {"name":"mus_alice","order":1,"path":"sounds/mus_alice/mus_alice.yy",},
     {"name":"mus_spider","order":4,"path":"sounds/mus_spider/mus_spider.yy",},
+    {"name":"txt_snd_alice","order":5,"path":"sounds/txt_snd_alice/txt_snd_alice.yy",},
     {"name":"spr_alice_p_blush","order":3,"path":"sprites/spr_alice_p_blush/spr_alice_p_blush.yy",},
     {"name":"spr_alice_p_dark","order":4,"path":"sprites/spr_alice_p_dark/spr_alice_p_dark.yy",},
     {"name":"spr_alice_portrait","order":1,"path":"sprites/spr_alice_portrait/spr_alice_portrait.yy",},

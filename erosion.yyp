@@ -82,6 +82,7 @@
     {"id":{"name":"mus_spider","path":"sounds/mus_spider/mus_spider.yy",},},
     {"id":{"name":"mus_title","path":"sounds/mus_title/mus_title.yy",},},
     {"id":{"name":"the_key_the_key","path":"sounds/the_key_the_key/the_key_the_key.yy",},},
+    {"id":{"name":"txt_snd_alice","path":"sounds/txt_snd_alice/txt_snd_alice.yy",},},
     {"id":{"name":"txt_snd_fb","path":"sounds/txt_snd_fb/txt_snd_fb.yy",},},
     {"id":{"name":"txt_snd","path":"sounds/txt_snd/txt_snd.yy",},},
     {"id":{"name":"spr_alice_p_blush","path":"sprites/spr_alice_p_blush/spr_alice_p_blush.yy",},},

@@ -45,8 +45,15 @@ switch(_text_id) {
 		scr_textbox_functions("...", "alice dark")
 		scr_textbox_functions("I want nothing more than to see the stars some day.", "alice dark")
 		scr_textbox_functions("We can make that happen, right?", "alice")
+		scr_option("info", "alice - info");
 		
 		break;
+		
+		case "alice - info":
+			scr_textbox_functions("Well, you're already rather familiar with me, Deliliah.", "alice")
+			scr_textbox_functions("But.. if someone didn't know, I guess the way I would describe myself is...", "alice")
+			scr_textbox_functions("A silly girl who is Delilah's number 1 fan! And I take a liking towards space...", "alice blush")
+			break;
 		
 
 

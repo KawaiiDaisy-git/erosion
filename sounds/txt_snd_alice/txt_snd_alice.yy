@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"txt_snd_alice",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.15385488,
+  "exportDir":"",
+  "name":"txt_snd_alice",
+  "parent":{
+    "name":"Dialogue",
+    "path":"folders/Dialogue.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"txt_snd_alice.ogg",
+  "volume":0.5,
+}

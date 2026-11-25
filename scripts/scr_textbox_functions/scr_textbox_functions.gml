@@ -109,7 +109,7 @@ if argument_count > 1 {
 			case "alice":
 			txtb_spr[page_number] = spr_alicedlg;
 			speaker_sprite[page_number] = spr_alice_portrait;
-			snd[page_number] = txt_snd;
+			snd[page_number] = txt_snd_alice;
 			break;
 			
 		}
@@ -123,7 +123,7 @@ if argument_count > 1 {
 			case "alice blush":
 			txtb_spr[page_number] = spr_alicedlg;
 			speaker_sprite[page_number] = spr_alice_p_blush;
-			snd[page_number] = txt_snd;
+			snd[page_number] = txt_snd_alice;
 			break;
 			
 		}
@@ -137,7 +137,7 @@ if argument_count > 1 {
 			case "alice dark":
 			txtb_spr[page_number] = spr_alicedlg;
 			speaker_sprite[page_number] = spr_alice_p_dark;
-			snd[page_number] = txt_snd;
+			snd[page_number] = txt_snd_alice;
 			break;
 			
 		}
